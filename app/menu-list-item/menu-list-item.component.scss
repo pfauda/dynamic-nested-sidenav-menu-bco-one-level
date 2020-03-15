@@ -1,0 +1,32 @@
+@import '../theme';
+
+:host {
+  display: block;
+  outline: none;
+
+  .mat-list-item-content {
+    padding: 0px 0 !important;
+  }
+  .mat-list-item.active {
+    background-color: rgba(mat-color($app-primary, 100), 0.25);
+  }
+  &:hover,
+  &:focus {
+    >.mat-list-item:not(.expanded) {
+      //background-color: mat-color($app-primary, 100) !important;
+      background-color: rgba(mat-color($app-primary, 100), 0.5) !important;
+    }
+  }
+}
+
+mat-list-item-content {
+    padding: 0px 0 !important;
+}
+
+.mat-list-item {
+  padding: 0px 0;
+  border-bottom: 1px solid rgba(47,70,34, 0.25);
+  height: 2rem;
+  color: whitesmoke;
+}
+
