@@ -18,68 +18,16 @@ export class AppComponent implements AfterViewInit {
       displayName: 'DevFestFL',
       children: [
         {
-          displayName: 'Speakers',
-          children: [
-            {
-              displayName: 'Michael Prentice',
-              route: 'michael-prentice',
-              children: [
-                {
-                  displayName: 'Create Enterprise UIs',
-                  route: 'material-design'
-                }
-              ]
-            },
-            {
-              displayName: 'Stephen Fluin',
-              route: 'stephen-fluin',
-              children: [
-                {
-                  displayName: 'What\'s up with the Web?',
-                  route: 'what-up-web'
-                }
-              ]
-            },
-            {
-              displayName: 'Mike Brocchi',
-              route: 'mike-brocchi',
-              children: [
-                {
-                  displayName: 'My ally, the CLI',
-                  route: 'my-ally-cli'
-                },
-                {
-                  displayName: 'Become an Angular Tailor',
-                  route: 'become-angular-tailer'
-                }
-              ]
-            }
-          ]
+          displayName: 'What up web',
+          route: 'what-up-web'
         },
         {
-          displayName: 'Sessions',
-          children: [
-            {
-              displayName: 'Create Enterprise UIs',
-              route: 'material-design'
-            },
-            {
-              displayName: 'What\'s up with the Web?',
-              route: 'what-up-web'
-            },
-            {
-              displayName: 'My ally, the CLI',
-              route: 'my-ally-cli'
-            },
-            {
-              displayName: 'Become an Angular Tailor',
-              route: 'become-angular-tailer'
-            }
-          ]
-        },
-        {
-          displayName: 'Feedback',
+          displayName: 'Material design',
           route: 'material-design'
+        },
+        {
+          displayName: 'Michael prentice',
+          route: 'michael-prentice'
         }
       ]
     },
@@ -87,68 +35,16 @@ export class AppComponent implements AfterViewInit {
       displayName: 'Disney',
       children: [
         {
-          displayName: 'Speakers',
-          children: [
-            {
-              displayName: 'Michael Prentice',
-              route: 'michael-prentice',
-              children: [
-                {
-                  displayName: 'Create Enterprise UIs',
-                  route: 'material-design'
-                }
-              ]
-            },
-            {
-              displayName: 'Stephen Fluin',
-              route: 'stephen-fluin',
-              children: [
-                {
-                  displayName: 'What\'s up with the Web?',
-                  route: 'what-up-web'
-                }
-              ]
-            },
-            {
-              displayName: 'Mike Brocchi',
-              route: 'mike-brocchi',
-              children: [
-                {
-                  displayName: 'My ally, the CLI',
-                  route: 'my-ally-cli'
-                },
-                {
-                  displayName: 'Become an Angular Tailor',
-                  route: 'become-angular-tailer'
-                }
-              ]
-            }
-          ]
+          displayName: 'What up web',
+          route: 'what-up-web'
         },
         {
-          displayName: 'Sessions',
-          children: [
-            {
-              displayName: 'Create Enterprise UIs',
-              route: 'material-design'
-            },
-            {
-              displayName: 'What\'s up with the Web?',
-              route: 'what-up-web'
-            },
-            {
-              displayName: 'My ally, the CLI',
-              route: 'my-ally-cli'
-            },
-            {
-              displayName: 'Become an Angular Tailor',
-              route: 'become-angular-tailer'
-            }
-          ]
+          displayName: 'Material design',
+          route: 'material-design'
         },
         {
-          displayName: 'Feedback',
-          route: 'feedback'
+          displayName: 'Michael prentice',
+          route: 'michael-prentice'
         }
       ]
     },
@@ -156,138 +52,16 @@ export class AppComponent implements AfterViewInit {
       displayName: 'Orlando',
       children: [
         {
-          displayName: 'Speakers',
-          children: [
-            {
-              displayName: 'Michael Prentice',
-              route: 'michael-prentice',
-              children: [
-                {
-                  displayName: 'Create Enterprise UIs',
-                  route: 'material-design'
-                }
-              ]
-            },
-            {
-              displayName: 'Stephen Fluin',
-              route: 'stephen-fluin',
-              children: [
-                {
-                  displayName: 'What\'s up with the Web?',
-                  route: 'what-up-web'
-                }
-              ]
-            },
-            {
-              displayName: 'Mike Brocchi',
-              route: 'mike-brocchi',
-              children: [
-                {
-                  displayName: 'My ally, the CLI',
-                  route: 'my-ally-cli'
-                },
-                {
-                  displayName: 'Become an Angular Tailor',
-                  route: 'become-angular-tailer'
-                }
-              ]
-            }
-          ]
+          displayName: 'What up web',
+          route: 'what-up-web'
         },
         {
-          displayName: 'Sessions',
-          children: [
-            {
-              displayName: 'Create Enterprise UIs',
-              route: 'material-design'
-            },
-            {
-              displayName: 'What\'s up with the Web?',
-              route: 'what-up-web'
-            },
-            {
-              displayName: 'My ally, the CLI',
-              route: 'my-ally-cli'
-            },
-            {
-              displayName: 'Become an Angular Tailor',
-              route: 'become-angular-tailer'
-            }
-          ]
+          displayName: 'Material design',
+          route: 'material-design'
         },
         {
-          displayName: 'Feedback',
-          route: 'feedback'
-        }
-      ]
-    },
-    {
-      displayName: 'Maleficent',
-      disabled: true,
-      children: [
-        {
-          displayName: 'Speakers',
-          children: [
-            {
-              displayName: 'Michael Prentice',
-              route: 'michael-prentice',
-              children: [
-                {
-                  displayName: 'Create Enterprise UIs',
-                  route: 'material-design'
-                }
-              ]
-            },
-            {
-              displayName: 'Stephen Fluin',
-              route: 'stephen-fluin',
-              children: [
-                {
-                  displayName: 'What\'s up with the Web?',
-                  route: 'what-up-web'
-                }
-              ]
-            },
-            {
-              displayName: 'Mike Brocchi',
-              route: 'mike-brocchi',
-              children: [
-                {
-                  displayName: 'My ally, the CLI',
-                  route: 'my-ally-cli'
-                },
-                {
-                  displayName: 'Become an Angular Tailor',
-                  route: 'become-angular-tailer'
-                }
-              ]
-            }
-          ]
-        },
-        {
-          displayName: 'Sessions',
-          children: [
-            {
-              displayName: 'Create Enterprise UIs',
-              route: 'material-design'
-            },
-            {
-              displayName: 'What\'s up with the Web?',
-              route: 'what-up-web'
-            },
-            {
-              displayName: 'My ally, the CLI',
-              route: 'my-ally-cli'
-            },
-            {
-              displayName: 'Become an Angular Tailor',
-              route: 'become-angular-tailer'
-            }
-          ]
-        },
-        {
-          displayName: 'Feedback',
-          route: 'feedback'
+          displayName: 'Michael prentice',
+          route: 'michael-prentice'
         }
       ]
     }
